@@ -1,0 +1,21 @@
+.navbar {
+  background-color: transparent;
+
+  .navbar-item{
+    color: #FA709A;
+    &.is-active{
+      color: #FA709A;
+      font-weight: bold;
+      border-bottom: 4px solid #FA709A;
+      &:hover{
+        color: #FA709A;
+        background-color: inherit;
+        cursor: default;
+      }
+    }
+    &:hover{
+      color: #FEE140;
+      background-color: #FA709A;
+    }
+  }
+}

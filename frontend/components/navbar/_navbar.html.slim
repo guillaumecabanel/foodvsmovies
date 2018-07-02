@@ -1,0 +1,11 @@
+nav.navbar
+  .navbar-brand
+     = link_to root_path, class: 'navbar-item' do
+      = component 'brand'
+  .navbar-menu
+    .navbar-start
+    .navbar-end
+      = link_to '#', class: 'navbar-item is-active' do
+        = t(:vote).capitalize
+      = link_to '#', class: 'navbar-item' do
+        = t(:top).capitalize

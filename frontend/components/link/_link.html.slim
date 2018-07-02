@@ -1,0 +1,3 @@
+= link_to @href, target: "#{'_blank' if external_link?}" do
+  = @text
+  =< '(ext.)' if external_link?
