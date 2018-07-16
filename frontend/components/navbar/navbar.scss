@@ -1,7 +1,7 @@
 .navbar {
   background-color: transparent;
 
-  .navbar-item{
+  a.navbar-item, .navbar-item{
     color: #FA709A;
     &.is-active{
       color: #FA709A;

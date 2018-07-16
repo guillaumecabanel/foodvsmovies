@@ -1,1 +1,1 @@
-import "./brand.css";
+import "./brand.scss";
